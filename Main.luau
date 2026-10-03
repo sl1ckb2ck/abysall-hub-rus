@@ -11905,7 +11905,7 @@ function Library:CreateWindow(WindowInfo)
                 IsNormal = false,
                 LockSize = false,
                 Visible = false,
-                Title = "WARNING",
+                Title = "ВНИМАНИЕ",
                 Text = "",
             },
 
@@ -17510,7 +17510,7 @@ local Objects = {
 	PathLights = {}
 }
 
-Globals.IncompatibleMessage = "Your executor doesn't support this feature."
+Globals.IncompatibleMessage = "Твой инжектор не поддерживает эту функцию."
 
 Functions.CheckCompatability = function(Array)
 	for _, Name in Array do
@@ -17612,63 +17612,63 @@ local EntityIcons = {
 }
 
 local ItemNames = {
-	["Lighter"]           = "Lighter",
-	["Flashlight"]        = "Flashlight",
-	["Lockpick"]          = "Lockpicks",
-	["Vitamins"]          = "Vitamins",
-	["Bandage"]           = "Bandage",
-	["StarVial"]          = "Starlight Vial",
-	["StarBottle"]        = "Starlight Bottle",
-	["StarJug"]           = "Starlight Barrel",
-	["Shakelight"]        = "Gummy Flashlight",
-	["Straplight"]        = "Straplight",
-	["Bulklight"]         = "Spotlight",
-	["Battery"]           = "Battery",
-	["Candle"]            = "Candle",
-	["Crucifix"]          = "Crucifix",
-	["CrucifixWall"]      = "Crucifix",
-	["Glowsticks"]        = "Glowstick",
-	["SkeletonKey"]       = "Skeleton Key",
-	["Candy"]             = "Candy",
-	["ShieldMini"]        = "Mini Shield Potion",
-	["ShieldBig"]         = "Big Shield Potion",
-	["BandagePack"]       = "Bandage Pack",
-	["BatteryPack"]       = "Battery Pack",
-	["RiftCandle"]        = "Moonlight Candle",
-	["LaserPointer"]      = "Laser Pointer",
-	["HolyGrenade"]       = "Holy Hand Grenade",
-	["Shears"]            = "Shears",
-	["Smoothie"]          = "Smoothie",
-	["Cheese"]            = "Cheese",
-	["Bread"]             = "Bread",
-	["AlarmClock"]        = "Alarm Clock",
-	["RiftSmoothie"]      = "Moonlight Smoothie",
-	["GweenSoda"]         = "Gween Soda",
-	["GlitchCube"]        = "Glitch Fragment",
-	["Scanner"]           = "Tablet",
-	["Bomb"]              = "Bomb",
-	["Knockbomb"]         = "Knockbomb",
-	["Nanner"]            = "Nanner",
-	["BigBomb"]           = "Big Bomb",
-	["SnakeBox"]          = "Hiding Box",
-	["GoldGun"]           = "Golden Gun",
-	["StopSign"]          = "Stop Sign",
-	["TipJar"]            = "Tip Jar",
-	["Lantern"]           = "Lantern",
-	["IronKey"]           = "Iron Key",
-	["LotusPetal"]        = "Lotus Petal",
-	["Compass"]           = "Compass",
-	["LotusPetalPickup"]  = "Lotus Petal",
-	["LanternLitItem"]    = "Lantern",
-	["KeyIron"]           = "Iron Key",
-	["IronKeyForCrypt"]   = "Iron Key",
-	["LotusHolder"]       = "Lotus Petal",
-	["Multitool"]         = "Multitool",
-	["RiftJar"]           = "Rift Jar",
-	["AloeVera"]          = "Aloe Vera",
-	["Donut"]             = "Donut",
-	["Lotus"]             = "Lotus",
-	["BoxingGloves"]      = "Boxing Gloves"
+	["Lighter"]           = "Зажигалка",
+	["Flashlight"]        = "Фонарик",
+	["Lockpick"]          = "Отмычки",
+	["Vitamins"]          = "Витамины",
+	["Bandage"]           = "Пластырь",
+	["StarVial"]          = "Колба Любопытного Света",
+	["StarBottle"]        = "Бутылка Любопытного Света",
+	["StarJug"]           = "Бочка Любопытного Света",
+	["Shakelight"]        = "Фонарик с Тряской",
+	["Straplight"]        = "Мини-фонарик",
+	["Bulklight"]         = "Большой Фонарь",
+	["Battery"]           = "Батарейка",
+	["Candle"]            = "Свеча",
+	["Crucifix"]          = "Крест",
+	["CrucifixWall"]      = "Крест",
+	["Glowsticks"]        = "Палочка со Светом",
+	["SkeletonKey"]       = "Скелетный Ключ",
+	["Candy"]             = "Конфета",
+	["ShieldMini"]        = "Мини Пузырь с Щитом",
+	["ShieldBig"]         = "Большой Пузырь с Щитом",
+	["BandagePack"]       = "Упаковка Пластырей",
+	["BatteryPack"]       = "Упаковка Батареек",
+	["RiftCandle"]        = "Лунная Свеча",
+	["LaserPointer"]      = "Лазер",
+	["HolyGrenade"]       = "Аилуя Граната",
+	["Shears"]            = "Ножницы",
+	["Smoothie"]          = "Смузи",
+	["Cheese"]            = "Сыр",
+	["Bread"]             = "Хлеб",
+	["AlarmClock"]        = "Будильник",
+	["RiftSmoothie"]      = "Лунный смузи",
+	["GweenSoda"]         = "Гвин Газировка",
+	["GlitchCube"]        = "Глитч Фрагмент",
+	["Scanner"]           = "Сканер",
+	["Bomb"]              = "Бомба",
+	["Knockbomb"]         = "Откидывающая Бомба",
+	["Nanner"]            = "Банан",
+	["BigBomb"]           = "Большая Бомба",
+	["SnakeBox"]          = "Коробка для Пряток",
+	["GoldGun"]           = "Пистолет",
+	["StopSign"]          = "Знак Стоп",
+	["TipJar"]            = "Банка для Пожертвований",
+	["Lantern"]           = "Лампа",
+	["IronKey"]           = "Серебрянный Ключ",
+	["LotusPetal"]        = "Лепесток Лотуса",
+	["Compass"]           = "Компас",
+	["LotusPetalPickup"]  = "Лепесток Лотуса",
+	["LanternLitItem"]    = "Лампа",
+	["KeyIron"]           = "Серебрянный Ключ",
+	["IronKeyForCrypt"]   = "Серебрянный Ключ",
+	["LotusHolder"]       = "Лепесток Лотуса",
+	["Multitool"]         = "Мультитул",
+	["RiftJar"]           = "Банка с Разломом",
+	["AloeVera"]          = "Алое Вера",
+	["Donut"]             = "Пончик",
+	["Lotus"]             = "Лотус",
+	["BoxingGloves"]      = "Боксёрские Перчатки"
 }
 
 local CutsceneNames = {
@@ -17747,7 +17747,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 		local Title = Instance.new("TextLabel")
 		local Description = Instance.new("TextLabel")
 
-		Notification.Name = "Notification"
+		Notification.Name = "Оповещение"
 		Notification.Parent = Container
 		Notification.BackgroundColor3 = Library.Scheme.BackgroundColor
 		Notification.BackgroundTransparency = 0.4
@@ -17764,7 +17764,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 		Line.Position = UDim2.new(0, 0, 1, -3)
 		Line.Size = UDim2.new(0, 0, 0, 3)
 
-		Warning.Name = "Warning"
+		Warning.Name = "Внимание"
 		Warning.Parent = Notification
 		Warning.BackgroundTransparency = 1
 		Warning.Position = UDim2.new(0, 10, 0, 5)
@@ -17887,7 +17887,7 @@ Globals.DoorsNotify = function(NotifyOptions)
 	Achievement.Name = "LiveAchievement"
 	Achievement.Visible = true
 
-	Achievement.Frame.TextLabel.Text = NotifyOptions.Style or "NOTIFICATION"
+	Achievement.Frame.TextLabel.Text = NotifyOptions.Style or "ОПОВЕЩЕНИЕ"
 	Achievement.Frame.Details.Title.Text = NotifyOptions.Title or "Sem Título"
 	Achievement.Frame.Details.Desc.Text = NotifyOptions.Description or "Sem Descrição"
 	Achievement.Frame.Details.Reason.Text = NotifyOptions.Reason or ""
@@ -18177,7 +18177,7 @@ Globals.STX = STX Functions.Notify = function(Settings)
 			Title = "Abysall Hub",
 			Description = Settings.Title,
 			Reason = Settings.Body,
-			Style = IsEntity and "WARNING" or "NOTIFICATION",
+			Style = IsEntity and "ВНИМАНИЕ" or "ОПОВЕЩЕНИЕ",
 			Color = IsEntity and Color3.fromRGB(255, 0, 0) or Color3.fromRGB(255, 222, 189),
 			Image = Settings.Image,
 			Time = Settings.Time
@@ -18695,8 +18695,8 @@ Functions.GetRandomCode = function()
 end
 
 local Window = Library:CreateWindow({
-	Title = "Русский Hub",
-	Footer = "script has been modified by me & chatGPT",
+	Title = "Abysall Hub 🇷🇺",
+	Footer = "tt: AbysallRus",
 	NotifySide = "Right",
 	ShowCustomCursor = false,
 	AutoShow = true,
@@ -18715,6 +18715,12 @@ local Tabs = {
 	Floors   = Window:AddTab("Этажи", "earth"),
     ["Info"] = Window:AddTab("Информация", "earth")
 }
+
+Groupboxes.Info = Tabs.Info:AddLeftGroupbox("Информация о скрипте")
+
+Groupboxes.Info:AddLabel("Добро пожаловать!")
+Groupboxes.Info:AddLabel("Версия: 0.0.1")
+Groupboxes.Info:AddLabel("Скрипт переведён на ~10%")
 
 Groupboxes.General_Character = Tabs.General:AddLeftGroupbox("Игрок")
 Groupboxes.General_Character:AddSlider("SpeedBoostSlider", {
@@ -19263,38 +19269,38 @@ Toggles.RemoveInteractingSounds:OnChanged(function(Value)
 	Globals.MainUI.Initiator.Main_Game.Reminder.Caption.Volume = Value and 0 or 0.1
 end)
 
-Groupboxes.Visuals_LeftTab = Tabs.Visuals:AddLeftTabbox("Camera / Effects")
-Groupboxes.Visuals_Camera = Groupboxes.Visuals_LeftTab:AddTab("Camera")
-Groupboxes.Visuals_Camera:AddToggle("AmbientToggle", { Text = "Ambient", Default = false, Tooltip = "Changes the lighting color to the specified value." })
-Groupboxes.Visuals_Camera:AddSlider("FieldOfView", { Text = "Field of View", Min = 1, Max = 120, Default = 70, Rounding = 0 })
+Groupboxes.Visuals_LeftTab = Tabs.Visuals:AddLeftTabbox("Камера / Эффекты")
+Groupboxes.Visuals_Camera = Groupboxes.Visuals_LeftTab:AddTab("Камера")
+Groupboxes.Visuals_Camera:AddToggle("AmbientToggle", { Text = "Цвет Окружения", Default = false, Tooltip = "Changes the lighting color to the specified value." })
+Groupboxes.Visuals_Camera:AddSlider("FieldOfView", { Text = "Обзор (FOV)", Min = 1, Max = 120, Default = 70, Rounding = 0 })
 Groupboxes.Visuals_Camera:AddDivider()
 Groupboxes.Visuals_Camera:AddToggle("RemoveCameraShake", {
-	Text = "Remove Camera Shake", Default = false, Tooltip = "Prevents the camera from shaking.",
+	Text = "Убрать Тряску Камеры", Default = false, Tooltip = "Prevents the camera from shaking.",
 	Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage
 })
 Groupboxes.Visuals_Camera:AddToggle("RemoveCameraBobbing", {
-	Text = "Remove Camera Bobbing", Default = false, Tooltip = "Prevents the camera from bobbing when moving.",
+	Text = "Убрать Покачивание Камеры", Default = false, Tooltip = "Prevents the camera from bobbing when moving.",
 	Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage
 })
-Groupboxes.Visuals_Camera:AddToggle("RemoveCutscenes", { Text = "Remove Cutscenes", Default = false, Tooltip = "Removes all non-necessary cutscenes." })
-Groupboxes.Visuals_Camera:AddToggle("RemoveCameraFog", { Text = "Remove Fog", Default = false, Tooltip = "Removes all fog effects from the camera." })
+Groupboxes.Visuals_Camera:AddToggle("RemoveCutscenes", { Text = "Убрать Кат-сцены", Default = false, Tooltip = "Removes all non-necessary cutscenes." })
+Groupboxes.Visuals_Camera:AddToggle("RemoveCameraFog", { Text = "Убрать Туман", Default = false, Tooltip = "Removes all fog effects from the camera." })
 Groupboxes.Visuals_Camera:AddDivider()
-Groupboxes.Visuals_Camera:AddToggle("ThirdPersonToggle", { Text = "Third Person", Default = false, Tooltip = "Zooms out your camera, allowing you to see your character from behind." })
-Toggles.ThirdPersonToggle:AddKeyPicker("ThirdPersonKeybind", { Text = "Third Person", Default = "T", Mode = "Toggle", SyncToggleState = true })
-Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetX", { Text = "X Offset", Min = -10, Max = 10, Default = 1.5, Rounding = 1, Compact = true })
-Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetY", { Text = "Y Offset", Min = -10, Max = 10, Default = 1,   Rounding = 1, Compact = true })
-Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetZ", { Text = "Z Offset", Min = -10, Max = 10, Default = 5,   Rounding = 1, Compact = true })
-Groupboxes.Visuals_Camera:AddToggle("ThirdPersonWallCheck", { Text = "Wall Check", Default = false, Tooltip = "Prevents third person from going through walls." })
+Groupboxes.Visuals_Camera:AddToggle("ThirdPersonToggle", { Text = "3-е лицо", Default = false, Tooltip = "Zooms out your camera, allowing you to see your character from behind." })
+Toggles.ThirdPersonToggle:AddKeyPicker("ThirdPersonKeybind", { Text = "3-е лицо", Default = "T", Mode = "Toggle", SyncToggleState = true })
+Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetX", { Text = "Ось X", Min = -10, Max = 10, Default = 1.5, Rounding = 1, Compact = true })
+Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetY", { Text = "Ось Y", Min = -10, Max = 10, Default = 1,   Rounding = 1, Compact = true })
+Groupboxes.Visuals_Camera:AddSlider("ThirdPersonOffsetZ", { Text = "Ось Z", Min = -10, Max = 10, Default = 5,   Rounding = 1, Compact = true })
+Groupboxes.Visuals_Camera:AddToggle("ThirdPersonWallCheck", { Text = "Анти-прохождение сквозь стены", Default = false, Tooltip = "Prevents third person from going through walls." })
 Groupboxes.Visuals_Camera:AddDivider()
 Groupboxes.Visuals_Camera:AddToggle("ViewmodelOffsetToggle", {
-	Text = "Viewmodel Offset", Default = false, Tooltip = "Changes the offset of your viewmodel while holding an item.",
+	Text = "Смещение при предмете", Default = false, Tooltip = "Changes the offset of your viewmodel while holding an item.",
 	Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage
 })
-Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetX", { Text = "X Offset", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
-Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetY", { Text = "Y Offset", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
-Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetZ", { Text = "Z Offset", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
+Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetX", { Text = "Ось X", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
+Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetY", { Text = "Ось Y", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
+Groupboxes.Visuals_Camera:AddSlider("ViewmodelOffsetZ", { Text = "Ось Z", Min = -10, Max = 10, Default = 0, Rounding = 1, Compact = true, Disabled = not Functions.CheckCompatability({"require"}), DisabledTooltip = Globals.IncompatibleMessage })
 
-Toggles.AmbientToggle:AddColorPicker("AmbientColor", { Text = "Ambient", Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
+Toggles.AmbientToggle:AddColorPicker("AmbientColor", { Text = "Цвет Окружения", Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
 Toggles.AmbientToggle:OnChanged(function(Value)
 	local OldAmbient = CurrentRooms:FindFirstChild(tostring(LocalPlayer:GetAttribute("CurrentRoom"))):GetAttribute("Ambient")
 	Services.TweenService:Create(Services.Lighting, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {
@@ -19328,9 +19334,9 @@ Toggles.RemoveCutscenes:OnChanged(function(Value)
     end
 end)
 
-Groupboxes.Visuals_Effects = Groupboxes.Visuals_LeftTab:AddTab("Effects")
-Groupboxes.Visuals_Effects:AddToggle("TransparentHidingSpotsToggle", { Text = "Transparent Hiding Spots", Default = false, Tooltip = "Makes a hiding spot transparent when you enter it." })
-Groupboxes.Visuals_Effects:AddSlider("TransparentHidingSpotsSlider", { Text = "Transparency", Min = 0, Max = 1, Default = 0.5, Rounding = 2, Compact = true })
+Groupboxes.Visuals_Effects = Groupboxes.Visuals_LeftTab:AddTab("Эффекты")
+Groupboxes.Visuals_Effects:AddToggle("TransparentHidingSpotsToggle", { Text = "Невидимые Места Пряток", Default = false, Tooltip = "Makes a hiding spot transparent when you enter it." })
+Groupboxes.Visuals_Effects:AddSlider("TransparentHidingSpotsSlider", { Text = "Невидимость", Min = 0, Max = 1, Default = 0.5, Rounding = 2, Compact = true })
 
 local function ApplyHidingTransparency(Value, SliderValue)
 	for _, Object in Objects.HidingSpots do
@@ -19359,13 +19365,13 @@ Options.TransparentHidingSpotsSlider:OnChanged(function(Value)
 end)
 
 Groupboxes.Visuals_Effects:AddDivider()
-Groupboxes.Visuals_Effects:AddToggle("DisableGlitchJumpscare",   { Text = "Disable Glitch Jumpscare",   Default = false, Tooltip = "Disables the jumpscare from 'Glitch'" })
-Groupboxes.Visuals_Effects:AddToggle("DisableTimothyJumpscare",  { Text = "Disable Timothy Jumpscare",  Default = false, Tooltip = "Disables the jumpscare from 'Timothy'" })
-Groupboxes.Visuals_Effects:AddToggle("DisableVoidJumpscare",     { Text = "Disable Void Jumpscare",     Default = false, Tooltip = "Disables the jumpscare from 'Void'" })
+Groupboxes.Visuals_Effects:AddToggle("DisableGlitchJumpscare",   { Text = "Убрать Скример Глитча",   Default = false, Tooltip = "Disables the jumpscare from 'Glitch'" })
+Groupboxes.Visuals_Effects:AddToggle("DisableTimothyJumpscare",  { Text = "Убрать Скример Тимоти",  Default = false, Tooltip = "Disables the jumpscare from 'Timothy'" })
+Groupboxes.Visuals_Effects:AddToggle("DisableVoidJumpscare",     { Text = "Убрать Скример Войда",     Default = false, Tooltip = "Disables the jumpscare from 'Void'" })
 Groupboxes.Visuals_Effects:AddDivider()
-Groupboxes.Visuals_Effects:AddToggle("DisableHideVignette",      { Text = "Disable Hide Vignette",      Default = false, Tooltip = "Disables the hiding screen effect." })
-Groupboxes.Visuals_Effects:AddToggle("DisableFiredampEffect",    { Text = "Disable Firedamp Effect",    Default = false, Tooltip = "Disables the firedamp screen effect." })
-Groupboxes.Visuals_Effects:AddToggle("DisableEntityJumpscares",  { Text = "Disable Entity Jumpscares",  Default = false, Tooltip = "Disables jumpscares from entities like Rush and Ambush." })
+Groupboxes.Visuals_Effects:AddToggle("DisableHideVignette",      { Text = "Убрать Виньетку Пряток",      Default = false, Tooltip = "Disables the hiding screen effect." })
+Groupboxes.Visuals_Effects:AddToggle("DisableFiredampEffect",    { Text = "Убрать Эффект Газа",    Default = false, Tooltip = "Disables the firedamp screen effect." })
+Groupboxes.Visuals_Effects:AddToggle("DisableEntityJumpscares",  { Text = "Убрать Скример Сущностей",  Default = false, Tooltip = "Disables jumpscares from entities like Rush and Ambush." })
 
 Toggles.DisableGlitchJumpscare:OnChanged(function(Value)
 	Modules.Glitch.Name = Value and "Glitch_Disabled" or "Glitch"
@@ -19407,16 +19413,32 @@ Toggles.DisableEntityJumpscares:OnChanged(function(Value)
 	end
 end)
 
-Groupboxes.Visuals_RightTab     = Tabs.Visuals:AddRightTabbox("Entities / Settings")
-Groupboxes.Visuals_Entities     = Groupboxes.Visuals_RightTab:AddTab("Entities")
+Groupboxes.Visuals_RightTab     = Tabs.Visuals:AddRightTabbox("Сущности / Настройки")
+Groupboxes.Visuals_Entities     = Groupboxes.Visuals_RightTab:AddTab("Сущности")
 Groupboxes.Visuals_EntitySettings = Groupboxes.Visuals_RightTab:AddTab("Настройки")
 
 Groupboxes.Visuals_Entities:AddDropdown("EntityList", {
-	Text = "Entity List",
-	Values = { "Rush","Ambush","Eyes","Halt","Blitz","Lookman","Gloombat Swarm","A-60","A-120","Sally","Jeff the Killer","Groundskeeper","Monument","AR0xMBUSH","RNIUSHCG==" },
+	Text = "Список Сущностей",
+    Values = {
+    ["Rush"] = "Раш",
+    ["Ambush"] = "Амбуш",
+    ["Eyes"] = "Глаза",
+    ["Halt"] = "Халт",
+    ["Blitz"] = "Блитз",
+    ["Lookman"] = "Лукмен",
+    ["Gloombat Swarm"] = "Глумбаты (мухи)",
+    ["A-60"] = "А-60 (Может не работать)",
+    ["A-120"] = "А-120 (Может не работать)",
+    ["Sally"] = "Салли",
+    ["Jeff the Killer"] = "Джефф Убийца",
+    ["Groundskeeper"] = "Смотритель Сада",
+    ["Monument"] = "Монумент",
+    ["AR0xMBUSH"] = "Глитч Амбуш",
+    ["RNIUSHCG=="] = "Глитч Раш"
+    },
 	Multi = true, AllowNull = true
 })
-Groupboxes.Visuals_Entities:AddToggle("NotifyEntities",    { Text = "Notify Entities",    Default = false, Tooltip = "Sends a notification when an entity spawns." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyEntities",    { Text = "Уведомлять о Появлении",    Default = false, Tooltip = "Sends a notification when an entity spawns." })
 Groupboxes.Visuals_Entities:AddDivider()
 
 local ItemsToNotify = {}
@@ -19427,16 +19449,16 @@ for Index, Name in pairs(ItemNames) do
 end
 
 Groupboxes.Visuals_Entities:AddDropdown("NotifyItemList", {
-	Text = "Item List",
+	Text = "Список Предметов",
 	Values = ItemsToNotify,
 	Multi = true, AllowNull = true
 })
-Groupboxes.Visuals_Entities:AddToggle("NotifyItemsToggle",    { Text = "Notify Items",    Default = false, Tooltip = "Sends a notification when an item spawns." })
-Groupboxes.Visuals_Entities:AddToggle("NotifyItemsShowDistance",    { Text = "Show Distance",    Default = false, Tooltip = "Shows how far away the item is in the notification." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyItemsToggle",    { Text = "Уведомлять о Появлении",    Default = false, Tooltip = "Sends a notification when an item spawns." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyItemsShowDistance",    { Text = "Показать Дистанцию",    Default = false, Tooltip = "Shows how far away the item is in the notification." })
 Groupboxes.Visuals_Entities:AddDivider()
-Groupboxes.Visuals_Entities:AddToggle("NotifyLibraryCode", { Text = "Notify Library Code", Default = false, Tooltip = "Automatically solves the code for the library padlock." })
-Groupboxes.Visuals_Entities:AddToggle("NotifyOxygen",      { Text = "Notify Oxygen Level", Default = false, Tooltip = "Shows how much oxygen you have remaining." })
-Groupboxes.Visuals_Entities:AddToggle("NotifyHasteTime",   { Text = "Notify Haste Time",   Default = false, Tooltip = "Shows how much time you have remaining before 'Haste' spawns." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyLibraryCode", { Text = "Уведомлять о Коде Библиотеки", Default = false, Tooltip = "Automatically solves the code for the library padlock." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyOxygen",      { Text = "Уведомлять о Количестве Воздуха", Default = false, Tooltip = "Shows how much oxygen you have remaining." })
+Groupboxes.Visuals_Entities:AddToggle("NotifyHasteTime",   { Text = "Уведомлять о Времени Хаста",   Default = false, Tooltip = "Shows how much time you have remaining before 'Haste' spawns." })
 
 Globals.LibraryCodeFound = false
 Toggles.NotifyLibraryCode:OnChanged(function(Value)
@@ -19450,19 +19472,19 @@ Toggles.NotifyLibraryCode:OnChanged(function(Value)
 	end
 end)
 
-Groupboxes.Visuals_EntitySettings:AddToggle("EntityChatToggle", { Text = "Notify Chat", Default = false, Tooltip = "Sends a message in the chat when an entity spawns." })
-Groupboxes.Visuals_EntitySettings:AddInput("EntityChatMessage", { Text = "Message", Default = "spawned!", Numeric = false, Placeholder = "Message" })
+Groupboxes.Visuals_EntitySettings:AddToggle("EntityChatToggle", { Text = "Уведомлять в Чате", Default = false, Tooltip = "Sends a message in the chat when an entity spawns." })
+Groupboxes.Visuals_EntitySettings:AddInput("EntityChatMessage", { Text = "Сообщение:", Default = "заспавнился!", Numeric = false, Placeholder = "Message" })
 Groupboxes.Visuals_EntitySettings:AddDivider()
-Groupboxes.Visuals_EntitySettings:AddDropdown("NotifyStyle", { Text = "Notify Style", Values = { "Abysall", "Doors", "STX", "Library" }, Default = 1 })
-Groupboxes.Visuals_EntitySettings:AddSlider("NotifySoundVolume", { Text = "Sound Volume", Min = 0, Max = 10, Default = 3, Rounding = 1 })
-Groupboxes.Visuals_EntitySettings:AddToggle("NotifyPlaySound", { Text = "Play Sound", Default = true, Tooltip = "Makes notifications play an alert sound." })
-Groupboxes.Visuals_EntitySettings:AddToggle("NotifyKeepNotifications", { Text = "Keep Notifications", Default = false, Tooltip = "Certain notifications will stay on screen until they are no longer needed." })
-Groupboxes.Visuals_EntitySettings:AddButton({ Text = "Test Notification", DoubleClick = false, Tooltip = "Sends a test notifcation, so you can see how your settings look.", Func = function()
-	Functions.Notify({Title = "This is a test."})
+Groupboxes.Visuals_EntitySettings:AddDropdown("NotifyStyle", { Text = "Стиль Оповещения", Values = { ["Abysall"] = "Обычный", ["Doors"] = "Дорс", ["STX"] = "Стиль1", ["Library"] = "Стиль2" }, Default = 1 })
+Groupboxes.Visuals_EntitySettings:AddSlider("NotifySoundVolume", { Text = "Громкость", Min = 0, Max = 10, Default = 3, Rounding = 1 })
+Groupboxes.Visuals_EntitySettings:AddToggle("NotifyPlaySound", { Text = "Включить Звук", Default = true, Tooltip = "Makes notifications play an alert sound." })
+Groupboxes.Visuals_EntitySettings:AddToggle("NotifyKeepNotifications", { Text = "Оставлять Оповещения", Default = false, Tooltip = "Certain notifications will stay on screen until they are no longer needed." })
+Groupboxes.Visuals_EntitySettings:AddButton({ Text = "Тест Оповещения", DoubleClick = false, Tooltip = "Sends a test notifcation, so you can see how your settings look.", Func = function()
+	Functions.Notify({Title = "Это тест"})
 end})
 
-Groupboxes.Visuals_ESP          = Tabs.Visuals:AddRightTabbox("ESP/Settings")
-Groupboxes.Visuals_ESP_Toggles  = Groupboxes.Visuals_ESP:AddTab("ESP")
+Groupboxes.Visuals_ESP          = Tabs.Visuals:AddRightTabbox("Подсветка/Настройки")
+Groupboxes.Visuals_ESP_Toggles  = Groupboxes.Visuals_ESP:AddTab("Подсветка")
 Groupboxes.Visuals_ESP_Settings = Groupboxes.Visuals_ESP:AddTab("Настройки")
 
 local function MakeESPToggle(ToggleKey, ColorKey, Text, Tooltip, ObjectsTable, LabelFunc, RoomBased)
@@ -19487,22 +19509,22 @@ local function MakeESPToggle(ToggleKey, ColorKey, Text, Tooltip, ObjectsTable, L
 	end)
 end
 
-Groupboxes.Visuals_ESP_Toggles:AddToggle("ObjectiveESPToggle", { Text = "Objectives", Default = false, Tooltip = "Highlights all objects required to progress." })
-Toggles.ObjectiveESPToggle:AddColorPicker("ObjectiveESPColor", { Text = "Objectives", Default = Color3.fromRGB(0, 255, 0), Transparency = 0 })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("ObjectiveESPToggle", { Text = "Обьекты", Default = false, Tooltip = "Highlights all objects required to progress." })
+Toggles.ObjectiveESPToggle:AddColorPicker("ObjectiveESPColor", { Text = "Обьекты", Default = Color3.fromRGB(0, 255, 0), Transparency = 0 })
 
 local ObjectiveLabels = {
-	["KeyObtain"]              = "Door Key",
-	["ElectricalKeyObtain"]    = "Electrical Key",
-	["MinesGenerator"]         = "Generator",
-	["FuseObtain"]             = "Generator Fuse",
-	["LiveHintBook"]           = "Hint Book",
-	["LiveBreakerPolePickup"]  = "Fuse Breaker",
-	["LibraryHintPaper"]       = "Hint Paper",
-	["PickupItem"]             = "Hint Paper",
-	["CringlePresent"]         = "Present",
-	["LeverForGate"]           = "Gate Lever",
-	["MinesGateButton"]        = "Gate Button",
-	["GardenGateButton"]       = "Gate Button",
+	["KeyObtain"]              = "Ключ от Двери",
+	["ElectricalKeyObtain"]    = "Ключ",
+	["MinesGenerator"]         = "Генератор",
+	["FuseObtain"]             = "Предохранитель Генератора",
+	["LiveHintBook"]           = "Книга",
+	["LiveBreakerPolePickup"]  = "Предохранитель",
+	["LibraryHintPaper"]       = "Лист",
+	["PickupItem"]             = "Лист",
+	["CringlePresent"]         = "Подарок",
+	["LeverForGate"]           = "Рычаг",
+	["MinesGateButton"]        = "Кнопка от Ворот",
+	["GardenGateButton"]       = "Кнопка от Ворот",
 }
 
 Toggles.ObjectiveESPToggle:OnChanged(function(Value)
@@ -19510,13 +19532,13 @@ Toggles.ObjectiveESPToggle:OnChanged(function(Value)
 		if Value then
 			local Label = ObjectiveLabels[Object.Name]
 			if Object.Name == "TimerLever" then
-				Label = "Time Lever [+" .. Object:GetAttribute("AddTime") .. "s]"
+				Label = "Рычаг Времени [+" .. Object:GetAttribute("AddTime") .. "с]"
 			elseif Object.Name == "MinesAnchor" then
-				Label = "Anchor [" .. Object:WaitForChild("Sign").TextLabel.Text .. "]"
+				Label = "Анчор [" .. Object:WaitForChild("Sign").TextLabel.Text .. "]"
 			elseif Object.Name == "WaterPump" then
-				Functions.AddESP({ Object = Object.Wheel, Text = "Water Pump", Color = Options.ObjectiveESPColor.Value }, true)
+				Functions.AddESP({ Object = Object.Wheel, Text = "Вентиль", Color = Options.ObjectiveESPColor.Value }, true)
 			elseif Object.Name == "VineGuillotine" then
-				Functions.AddESP({ Object = Object.Lever, Text = "Vine Lever", Color = Options.ObjectiveESPColor.Value }, true)
+				Functions.AddESP({ Object = Object.Lever, Text = "Рычаг", Color = Options.ObjectiveESPColor.Value }, true)
 			end
 			if Label then
 				Functions.AddESP({ Object = Object, Text = Label, Color = Options.ObjectiveESPColor.Value }, true)
@@ -19532,47 +19554,69 @@ Options.ObjectiveESPColor:OnChanged(function(Value)
 	end
 end)
 
-Groupboxes.Visuals_ESP_Toggles:AddToggle("DoorESPToggle",       { Text = "Doors",        Default = false, Tooltip = "Highlights the next door." })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("HidingSpotESPToggle", { Text = "Hiding Spots", Default = false, Tooltip = "Highlights places where you can hide from entities" })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("PlayerESPToggle",     { Text = "Players",      Default = false, Tooltip = "Highlights other players." })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("ChestESPToggle",      { Text = "Chests",       Default = false, Tooltip = "Highlights objects that can contain loot." })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("ItemESPToggle",       { Text = "Items",        Default = false, Tooltip = "Highlights all collectable items/consumables." })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("CurrencyESPToggle",   { Text = "Currency",     Default = false, Tooltip = "Highlights all currency that spawns." })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("LadderESPToggle",     { Text = "Ladders",      Default = false, Tooltip = "Highlights ladders that can be used to disable the anticheat." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("DoorESPToggle",       { Text = "Двери",        Default = false, Tooltip = "Highlights the next door." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("HidingSpotESPToggle", { Text = "Места для Пряток", Default = false, Tooltip = "Highlights places where you can hide from entities" })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("PlayerESPToggle",     { Text = "Игроки",      Default = false, Tooltip = "Highlights other players." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("ChestESPToggle",      { Text = "Сундуки",       Default = false, Tooltip = "Highlights objects that can contain loot." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("ItemESPToggle",       { Text = "Предметы",        Default = false, Tooltip = "Highlights all collectable items/consumables." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("CurrencyESPToggle",   { Text = "Валюта",     Default = false, Tooltip = "Highlights all currency that spawns." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("LadderESPToggle",     { Text = "Лестницы",      Default = false, Tooltip = "Highlights ladders that can be used to disable the anticheat." })
 Groupboxes.Visuals_ESP_Toggles:AddDivider()
 Groupboxes.Visuals_ESP_Toggles:AddDropdown("EntityESPOptions",     { 
 	Text = "Entity List",
-	Values = { "Rush","Ambush","Eyes","Dupe","Figure","Blitz","Lookman","Snare","Giggle","Gloombat Eggs","Grumble","A-60","A-120","Sally","Jeff the Killer","Groundskeeper","Mandrake Hole","Monument","Bramble","AR0xMBUSH","RNIUSHCG==" },
+    Values = {
+    ["Rush"] = "Раш",
+    ["Ambush"] = "Амбуш",
+    ["Eyes"] = "Глаза",
+    ["Dupe"] = "Дюп",
+    ["Figure"] = "Фигура",
+    ["Blitz"] = "Блитз",
+    ["Lookman"] = "Лукмен",
+    ["Snare"] = "Снейр (ловушка)",
+    ["Giggle"] = "Гигл",
+    ["Gloombat Swarm"] = "Глумбаты (мухи)",
+    ["Grumble"] = "Грамбл",
+    ["A-60"] = "А-60 (Может не работать)",
+    ["A-120"] = "А-120 (Может не работать)",
+    ["Sally"] = "Салли",
+    ["Jeff the Killer"] = "Джефф Убийца",
+    ["Groundskeeper"] = "Смотритель Сада",
+    ["Mandrake Hole"] = "Дыра Мандрагоры",
+    ["Monument"] = "Монумент",
+    ["Bramble"] = "Брамбл",
+    ["AR0xMBUSH"] = "Глитч Амбуш",
+    ["RNIUSHCG=="] = "Глитч Раш"
+    },
 	Multi = true,
 	AllowNull = true
 })
-Groupboxes.Visuals_ESP_Toggles:AddToggle("EntityESPToggle",     { Text = "Entities",      Default = false, Tooltip = "Highlights all entities that spawn." })
+Groupboxes.Visuals_ESP_Toggles:AddToggle("EntityESPToggle",     { Text = "Сущности",      Default = false, Tooltip = "Highlights all entities that spawn." })
 
-Toggles.DoorESPToggle:AddColorPicker("DoorESPColor",           { Text = "Doors",        Default = Color3.fromRGB(0, 200, 255),  Transparency = 0 })
-Toggles.HidingSpotESPToggle:AddColorPicker("HidingSpotESPColor", { Text = "Hiding Spots", Default = Color3.fromRGB(255, 170, 0),  Transparency = 0 })
-Toggles.PlayerESPToggle:AddColorPicker("PlayerESPColor",       { Text = "Players",      Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
-Toggles.ChestESPToggle:AddColorPicker("ChestESPColor",         { Text = "Chests",       Default = Color3.fromRGB(255, 255, 0),   Transparency = 0 })
-Toggles.ItemESPToggle:AddColorPicker("ItemESPColor",           { Text = "Items",        Default = Color3.fromRGB(170, 0, 255),   Transparency = 0 })
-Toggles.CurrencyESPToggle:AddColorPicker("CurrencyESPColor",   { Text = "Currency",     Default = Color3.fromRGB(255, 255, 0),   Transparency = 0 })
-Toggles.LadderESPToggle:AddColorPicker("LadderESPColor",       { Text = "Ladders",      Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
-Toggles.EntityESPToggle:AddColorPicker("EntityESPColor",       { Text = "Entities",     Default = Color3.fromRGB(255, 0, 0),     Transparency = 0 })
+Toggles.DoorESPToggle:AddColorPicker("DoorESPColor",           { Text = "Двери",        Default = Color3.fromRGB(0, 200, 255),  Transparency = 0 })
+Toggles.HidingSpotESPToggle:AddColorPicker("HidingSpotESPColor", { Text = "Места для Пряток", Default = Color3.fromRGB(255, 170, 0),  Transparency = 0 })
+Toggles.PlayerESPToggle:AddColorPicker("PlayerESPColor",       { Text = "Игроки",      Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
+Toggles.ChestESPToggle:AddColorPicker("ChestESPColor",         { Text = "Сундуки",       Default = Color3.fromRGB(255, 255, 0),   Transparency = 0 })
+Toggles.ItemESPToggle:AddColorPicker("ItemESPColor",           { Text = "Предметы",        Default = Color3.fromRGB(170, 0, 255),   Transparency = 0 })
+Toggles.CurrencyESPToggle:AddColorPicker("CurrencyESPColor",   { Text = "Валюта",     Default = Color3.fromRGB(255, 255, 0),   Transparency = 0 })
+Toggles.LadderESPToggle:AddColorPicker("LadderESPColor",       { Text = "Лестницы",      Default = Color3.fromRGB(255, 255, 255), Transparency = 0 })
+Toggles.EntityESPToggle:AddColorPicker("EntityESPColor",       { Text = "Сущности",     Default = Color3.fromRGB(255, 0, 0),     Transparency = 0 })
 
 local HidingSpotLabels = {
-	Wardrobe = "Closet", ["Backdoor_Wardrobe"] = "Closet", Toolshed = "Closet",
-	RetroWardrobe = "Closet", ["Wardrobe-FOOLS26"] = "Closet",
-	Locker_Large = "Locker", Rooms_Locker = "Locker", Rooms_Locker_Fridge = "Locker",
-	Bed = "Bed", Double_Bed = "Double Bed", CircularVent = "Vent", Dumpster = "Dumpster"
+	Wardrobe = "Шкаф", ["Backdoor_Wardrobe"] = "Шкаф", Toolshed = "Шкаф",
+	RetroWardrobe = "Шкаф", ["Wardrobe-FOOLS26"] = "Шкаф",
+	Locker_Large = "Шкафчик", Rooms_Locker = "Шкафчик", Rooms_Locker_Fridge = "Шкафчик",
+	Bed = "Кровать", Double_Bed = "Кровать", CircularVent = "Вентиляция", Dumpster = "Дампстер"
 }
 local ChestLabels = {
 	ChestBox = true, ChestBoxLocked = true, Toolbox = true, Toolbox_Locked = true,
-	Chest_Vine = "Vine Chest", Toolshed_Small = "Toolshed", Locker_Small_Locked = "Locked Item Locker", MouseHole = "Mouse"
+	Chest_Vine = "Сундук с Лианами", Toolshed_Small = "Шкафчик", Locker_Small_Locked = "Закрытый шкафчик", MouseHole = "Мышь"
 }
 local EntityESPLabels = {
-	JeffTheKiller = "Jeff the Killer", GiggleCeiling = "Giggle",
-	Snare = "Snare", GrumbleRig = "Grumble",
-	Drakobloxxer = "Drakobloxxer", Hole = "Mandrake Hole", Groundskeeper = "Groundskeeper",
-	LiveEntityBramble = "Bramble", Figure = "Figure", FigureRig = "Figure", FigureRagdoll = "Figure",
-	FakeDoor = "Dupe", DoorFake = "Dupe"
+	JeffTheKiller = "Джефф Убийца", GiggleCeiling = "Гигл",
+	Snare = "Снейр", GrumbleRig = "Грамбл",
+	Drakobloxxer = "Дракоблоксер", Hole = "Дыра Мандрагоры", Groundskeeper = "Смотритель Сада",
+	LiveEntityBramble = "Брамбл", Figure = "Фигура", FigureRig = "Фигура", FigureRagdoll = "Фигура",
+	FakeDoor = "Дюп", DoorFake = "Дюп"
 }
 
 local NodeEntities = {
@@ -19581,7 +19625,7 @@ local NodeEntities = {
 
 Toggles.DoorESPToggle:OnChanged(function(Value)
 	for _, Object in Objects.Doors do
-		if Value then Functions.AddESP({ Object = Object, Text = "Door " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true)
+		if Value then Functions.AddESP({ Object = Object, Text = "Дверь " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true)
 		else Functions.RemoveESP(Object) end
 	end
 end)
@@ -19625,9 +19669,9 @@ Toggles.ChestESPToggle:OnChanged(function(Value)
 		if Value then
 			local Label
 			if Object.Name == "ChestBox" or Object.Name == "ChestBoxLocked" then
-				Label = Object:GetAttribute("Locked") and "Locked Chest" or "Chest"
+				Label = Object:GetAttribute("Locked") and "Закрытый Сундук" or "Сундук"
 			elseif Object.Name == "Toolbox" or Object.Name == "Toolbox_Locked" then
-				Label = Object:GetAttribute("Locked") and "Locked Toolbox" or "Toolbox"
+				Label = Object:GetAttribute("Locked") and "Закрытый Тулбокс" or "Тулбокс"
 			elseif ChestLabels[Object.Name] and ChestLabels[Object.Name] ~= true then
 				Label = ChestLabels[Object.Name]
 			end
@@ -19663,9 +19707,9 @@ Toggles.CurrencyESPToggle:OnChanged(function(Value)
 		if Value then
 			local Label
 			if Object.Name == "GoldPile" and Object:GetAttribute("GoldValue") then
-				Label = "Gold Pile [" .. Object:GetAttribute("GoldValue") .. "]"
+				Label = "Золото [" .. Object:GetAttribute("GoldValue") .. "]"
 			elseif Object.Name == "StardustPickup" then
-				Label = "Stardust Pile"
+				Label = "Звёздная Пыль"
 			end
 			if Label then Functions.AddESP({ Object = Object, Text = Label, Color = Options.CurrencyESPColor.Value }, true) end
 		else
@@ -19715,7 +19759,7 @@ end)
 
 Toggles.LadderESPToggle:OnChanged(function(Value)
 	for _, Object in Objects.Ladders do
-		if Value then Functions.AddESP({ Object = Object, Text = "Ladder", Color = Options.LadderESPColor.Value }, true)
+		if Value then Functions.AddESP({ Object = Object, Text = "Лестница", Color = Options.LadderESPColor.Value }, true)
 		else Functions.RemoveESP(Object) end
 	end
 end)
@@ -19723,28 +19767,28 @@ Options.LadderESPColor:OnChanged(function(Value)
 	for _, Object in Objects.Ladders do Abysall.ESPLibrary:UpdateObjectColor(Object, Value) end
 end)
 
-Groupboxes.Visuals_ESP_Settings:AddToggle("ESPRainbow",     { Text = "Rainbow Effect", Default = false, Tooltip = "Makes the esp objects change colour like a rainbow." })
-Groupboxes.Visuals_ESP_Settings:AddToggle("ESPShowDistance",{ Text = "Show Distance",  Default = true,  Tooltip = "Shows how far away your character is from the object." })
+Groupboxes.Visuals_ESP_Settings:AddToggle("ESPRainbow",     { Text = "Радужный Эффект", Default = false, Tooltip = "Makes the esp objects change colour like a rainbow." })
+Groupboxes.Visuals_ESP_Settings:AddToggle("ESPShowDistance",{ Text = "Показать Дистанцию",  Default = true,  Tooltip = "Shows how far away your character is from the object." })
 Groupboxes.Visuals_ESP_Settings:AddDivider()
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPFillTransparency",        { Text = "Fill Transparency",         Min = 0, Max = 1, Default = 0.75, Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPOutlineTransparency",     { Text = "Outline Transparency",      Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextTransparency",        { Text = "Text Transparency",         Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextOutlineTransparency", { Text = "Text Outline Transparency", Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPFadeTime",                { Text = "Fade Time",                 Min = 0, Max = 1, Default = 0.25, Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPRenderLimit",             { Text = "Render Limit",              Min = 30, Max = 240, Default = 240, Rounding = 0, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextSize",                { Text = "Text Size",                 Min = 12, Max = 24, Default = 20, Rounding = 0, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPFillTransparency",        { Text = "Невидимость Внутри",         Min = 0, Max = 1, Default = 0.75, Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPOutlineTransparency",     { Text = "Невидимость Линий",      Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextTransparency",        { Text = "Невидимость Текста",         Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextOutlineTransparency", { Text = "Невидимость Линий Текста", Min = 0, Max = 1, Default = 0,    Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPFadeTime",                { Text = "Время Появления",                 Min = 0, Max = 1, Default = 0.25, Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPRenderLimit",             { Text = "Лимит Появления",              Min = 30, Max = 240, Default = 240, Rounding = 0, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTextSize",                { Text = "Размер Текста",                 Min = 12, Max = 24, Default = 20, Rounding = 0, Compact = true })
 Groupboxes.Visuals_ESP_Settings:AddDropdown("ESPTextFont", {
-	Text = "Text Font",
+	Text = "Шрифт Текста",
 	Values = { "Legacy","Arial","ArialBold","SourceSans","SourceSansBold","SourceSansLight","SourceSansItalic","Bodoni","Garamond","Cartoon","Code","Highway","SciFi","Arcade","Fantasy","Antique","SourceSansSemibold","Gotham","GothamMedium","GothamBold","GothamBlack","AmaticSC","Bangers","Creepster","DenkOne","Fondamento","FredokaOne","GrenzeGotisch","IndieFlower","JosefinSans","Jura","Kalam","LuckiestGuy","Merriweather","Michroma","Nunito","Oswald","PatrickHand","PermanentMarker","Roboto","RobotoCondensed","RobotoMono","Sarpanch","SpecialElite","TitilliumWeb","Ubuntu","BuilderSans","BuilderSansMedium","BuilderSansBold","BuilderSansExtraBold","Arimo","ArimoBold" },
 	Default = 12
 })
 Groupboxes.Visuals_ESP_Settings:AddDivider()
-Groupboxes.Visuals_ESP_Settings:AddDropdown("ESPTracersOrigin",  { Text = "Tracer Origin", Values = { "Bottom","Center","Top","Mouse" }, Default = 1 })
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTracerThickness",  { Text = "Tracer Thickness", Min = 0.5, Max = 2, Default = 0.75, Rounding = 2, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddToggle("ESPTracersToggle",    { Text = "Enable Tracers", Default = false, Tooltip = "Draws a line to highlighted objects." })
+Groupboxes.Visuals_ESP_Settings:AddDropdown("ESPTracersOrigin",  { Text = "Позиция Линий", Values = {["Bottom"] = "Низ",["Center"] = "Центр",["Top"] = "Верх",["Mouse"] = "Мышка" }, Default = 1 })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPTracerThickness",  { Text = "Толщина Линий", Min = 0.5, Max = 2, Default = 0.75, Rounding = 2, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddToggle("ESPTracersToggle",    { Text = "Включить Линии", Default = false, Tooltip = "Draws a line to highlighted objects." })
 Groupboxes.Visuals_ESP_Settings:AddDivider()
-Groupboxes.Visuals_ESP_Settings:AddSlider("ESPArrowsRadius",     { Text = "Arrow Radius", Min = 100, Max = 500, Default = 250, Rounding = 0, Compact = true })
-Groupboxes.Visuals_ESP_Settings:AddToggle("ESPArrowsToggle",     { Text = "Enable Arrows", Default = false, Tooltip = "Shows arrow that point to off-screen objects." })
+Groupboxes.Visuals_ESP_Settings:AddSlider("ESPArrowsRadius",     { Text = "Радиус Стрелок", Min = 100, Max = 500, Default = 250, Rounding = 0, Compact = true })
+Groupboxes.Visuals_ESP_Settings:AddToggle("ESPArrowsToggle",     { Text = "Включить Стрелки", Default = false, Tooltip = "Shows arrow that point to off-screen objects." })
 
 Abysall.ESPLibrary:SetRainbow(false)
 Abysall.ESPLibrary:SetShowDistance(true)
@@ -19781,8 +19825,8 @@ Options.ESPArrowsRadius:OnChanged(function(V)    Abysall.ESPLibrary:SetArrowRadi
 
 Tabs.Floors:UpdateWarningBox({
 	Visible = true,
-	Title = "Compatability Warning",
-	Text = "Features highlighted in red do not work in the current floor.",
+	Title = "Внимание!",
+	Text = "Функции, обозначенные красным не работают на данном этаже.",
 })
 
 Groupboxes.Floors_Automation = Tabs.Floors:AddRightGroupbox("Automation")
@@ -20989,7 +21033,7 @@ Functions.HandleObject = function(Object)
 		task.spawn(function()
 			task.wait(0.5)
 			if Object.Parent then
-				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Door Key", Color = Options.ObjectiveESPColor.Value }, true) end
+				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Ключ от Двери", Color = Options.ObjectiveESPColor.Value }, true) end
 				table.insert(Objects.Objectives, Object)
 			end
 		end)
@@ -20997,7 +21041,7 @@ Functions.HandleObject = function(Object)
 		task.spawn(function()
 			task.wait(0.5)
 			if Object.Parent then
-				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Electrical Key", Color = Options.ObjectiveESPColor.Value }, true) end
+				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Ключ", Color = Options.ObjectiveESPColor.Value }, true) end
 				table.insert(Objects.Objectives, Object)
 			end
 		end)
@@ -21006,7 +21050,7 @@ Functions.HandleObject = function(Object)
 			task.wait(0.5)
 			if Object.Parent then
 				Object:SetAttribute("AddTime", Object.TakeTimer.TextLabel.Text == "01:00" and 60 or 30)
-				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Time Lever [+" .. Object:GetAttribute("AddTime") .. "s]", Color = Options.ObjectiveESPColor.Value }, true) end
+				if Toggles.ObjectiveESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Рычаг с Временем [+" .. Object:GetAttribute("AddTime") .. "с]", Color = Options.ObjectiveESPColor.Value }, true) end
 				Object:WaitForChild("Main").SoundToPlay.Played:Once(function()
 					Functions.RemoveESP(Object)
 					Functions.BlacklistESP(Object)
@@ -21099,7 +21143,7 @@ Functions.HandleObject = function(Object)
 		end)
 		table.insert(Objects.Objectives, Object)
 	elseif Name == "Ladder" then
-		if Toggles.LadderESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Ladder", Color = Options.LadderESPColor.Value }, true) end
+		if Toggles.LadderESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Лестница", Color = Options.LadderESPColor.Value }, true) end
 		table.insert(Objects.Ladders, Object)
 	elseif Name == "Door" and Object.Parent and tonumber(Object.Parent.Name) then
 		local DoorParts = {}
@@ -21128,7 +21172,7 @@ Functions.HandleObject = function(Object)
 				W.Part0 = HP W.Part1 = DoorPart W.Enabled = true
 			end
 			table.insert(Objects.Doors, HighlightModel)
-			if Toggles.DoorESPToggle.Value then Functions.AddESP({ Object = HighlightModel, Text = "Door " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true) end
+			if Toggles.DoorESPToggle.Value then Functions.AddESP({ Object = HighlightModel, Text = "Дверь " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true) end
 		else
 			local Root = Object:WaitForChild("Door", 9e9)
 			local HP = Instance.new("Part", Object)
@@ -21143,7 +21187,7 @@ Functions.HandleObject = function(Object)
 			W.Part0 = HP W.Part1 = Root W.Enabled = true
 			Instance.new("Humanoid", Object).Name = "HighlightHumanoid"
 			table.insert(Objects.Doors, HP)
-			if Toggles.DoorESPToggle.Value then Functions.AddESP({ Object = HP, Text = "Door " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true) end
+			if Toggles.DoorESPToggle.Value then Functions.AddESP({ Object = HP, Text = "Дверь " .. Functions.GetDoorNumber(Object), Color = Options.DoorESPColor.Value }, true) end
 		end
 
 		local LastDoorFire = tick()
@@ -21331,22 +21375,22 @@ Functions.HandleObject = function(Object)
 		end
 		table.insert(Objects.Obstructions, Object)
 	elseif Name == "ChestBox" or Name == "ChestBoxLocked" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = Object:GetAttribute("Locked") and "Locked Chest" or "Chest", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = Object:GetAttribute("Locked") and "Закрытый Сундук" or "Сундук", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif Name == "Toolbox" or Name == "Toolbox_Locked" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = Object:GetAttribute("Locked") and "Locked Toolbox" or "Toolbox", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = Object:GetAttribute("Locked") and "Закрытый Тулбокс" or "Тулбокс", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif Name == "Chest_Vine" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Vine Chest", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Сундук с Лианами", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif Name == "Toolshed_Small" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Toolshed", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Шкафчик", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif Name == "Locker_Small_Locked" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Locked Item Locker", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Закрытый Шкафчик", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif Name == "MouseHole" then
-		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Mouse", Color = Options.ChestESPColor.Value }, true) end
+		if Toggles.ChestESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Мышь", Color = Options.ChestESPColor.Value }, true) end
 		table.insert(Objects.Chests, Object)
 	elseif ItemNames[Name] and Object:FindFirstChild("ModulePrompt") then
 		if Toggles.ItemESPToggle.Value then Functions.AddESP({ Object = Object, Text = ItemNames[Name], Color = Options.ItemESPColor.Value }, Object:GetAttribute("ParentRoom") ~= nil) end
@@ -21359,9 +21403,9 @@ Functions.HandleObject = function(Object)
 
 		if Toggles.NotifyItemsToggle.Value and Options.NotifyItemList.Value[ItemNames[Name]] and Object.Parent.Name ~= "Drops" then
 			if Toggles.NotifyItemsShowDistance.Value then
-				Functions.Notify({ Title = "Item '" .. ItemNames[Name] .. "' has spawned.", Body = "It is '" .. math.round(LocalPlayer:DistanceFromCharacter(Object.PrimaryPart.Position)) .. "' studs away from you." })
+				Functions.Notify({ Title = "Предмет '" .. ItemNames[Name] .. "' заспавнился.", Body = "Он в '" .. math.round(LocalPlayer:DistanceFromCharacter(Object.PrimaryPart.Position)) .. "' метров от тебя." })
 			else
-				Functions.Notify({ Title = "Item '" .. ItemNames[Name] .. "' has spawned."})
+				Functions.Notify({ Title = "Предмет '" .. ItemNames[Name] .. "' заспавнился."})
 			end
 		end
 
@@ -21370,7 +21414,7 @@ Functions.HandleObject = function(Object)
 		if Toggles.ItemESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Green Herb", Color = Options.ItemESPColor.Value }, true) end
 		table.insert(Objects.Items, Object)
 	elseif Name == "GoldPile" and Object:GetAttribute("GoldValue") then
-		if Toggles.CurrencyESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Gold Pile [" .. Object:GetAttribute("GoldValue") .. "]", Color = Options.CurrencyESPColor.Value }, true) end
+		if Toggles.CurrencyESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Золото [" .. Object:GetAttribute("GoldValue") .. "]", Color = Options.CurrencyESPColor.Value }, true) end
 		table.insert(Objects.Currency, Object)
 	elseif Name == "StardustPickup" then
 		if Toggles.CurrencyESPToggle.Value then Functions.AddESP({ Object = Object, Text = "Stardust Pile", Color = Options.CurrencyESPColor.Value }, true) end
@@ -21420,7 +21464,7 @@ Functions.HandleObject = function(Object)
 				if Lock and Lock:FindFirstChild("UnlockPrompt") then Lock.UnlockPrompt.Enabled = false end
 			end
 			if Toggles.EntityESPToggle.Value and Options.EntityESPOptions.Value["Dupe"] then
-				Functions.AddESP({ Object = Object, Text = "Dupe", Color = Options.EntityESPColor.Value }, true)
+				Functions.AddESP({ Object = Object, Text = "Дюп", Color = Options.EntityESPColor.Value }, true)
 			end
 			table.insert(Objects.Entities, Object)
 		end
@@ -22305,7 +22349,6 @@ end)
 while not Globals.MainUI do task.wait() end
 Abysall.Interface.ApplySettingsTab(Window)
 Functions.Notify({ Title = "Successfully loaded in " .. math.floor((tick() - LoadStart) * 1000) / 1000 .. " seconds." , Body = "Press '" .. tostring(Options.MenuKeybind.Value) .. "' to toggle the UI."})
-
 
 
 
